@@ -1,0 +1,12 @@
+body {
+    background-image: url(../Assets/Images/tic-tac-toe.png);
+
+}
+
+p {
+    color: #777;
+}
+
+.card-image {
+    height: 180px;
+}
