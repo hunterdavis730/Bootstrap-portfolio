@@ -1,6 +1,6 @@
 body {
-    background-image: url(../Assets/Images/tic-tac-toe.png);
-
+    background-image: url(../Assets/Images/4k-wallpaper-architecture-background-1308624.jpg);
+    background-size: cover;
 }
 
 p {
@@ -8,5 +8,13 @@ p {
 }
 
 .card-image {
-    height: 180px;
+    height: 225px;
+}
+
+.project-title {
+    text-decoration: none !important;
+}
+
+#email {
+    font-size: 14px;
 }

@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="Assets/style.css">
 
     <title>Document</title>
@@ -14,17 +16,23 @@
 
 <body>
     <!-- start of navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom" style="border-color: #ccc;">
-        <a href="index.html" class="navbar-brand p-3 my-n2 text-white" style="background-color: #4aaaa5; margin-left: 15%;">Hunter
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark border-bottom" style="border-color: #ccc;">
+        <a href="index.html" class="navbar-brand p-3 my-n2 text-white"
+            style="background-color: #4aaaa5; margin-left: 15%;">Hunter
             Davis</a>
 
 
         <div class="collapse navbar-collapse justify-content-end" style="margin-right: 15%;">
             <div class="navbar-nav" style="color:#4aaaa5;">
-                <a href="index.html" class="nav-item nav-link border-right" style="border-color: #ccc;">About</a>
-                <a href="portfolio.html" class="nav-item nav-link active border-right" style="border-color: #ccc;">Portfolio
+                <a href="index.html" class="nav-item nav-link text-white border-right mr-3 pr-4"
+                    style="border-color: #ccc; font-size: 2rem;" title="About Me"> <i class="fas fa-user"></i>
                     <span class="sr-only">(current)</span></a>
-                <a href="contact.html" class="nav-item nav-link">Contact</a>
+                <a href="portfolio.html" class="nav-item nav-link text-white active border-right mr-3 pr-4"
+                    style="border-color: #ccc; font-size: 2rem;" title="Projects"><i class="fas fa-code"></i></a>
+                <a href="contact.html" class="nav-item nav-link text-white" style="font-size: 2rem;"
+                    title="Contact Me"><i class="fas fa-envelope"></i></a>
             </div>
 
         </div>
@@ -37,7 +45,7 @@
             <div class="row bg-white">
 
                 <div class="col-md-12 border-left border-right border-top">
-                    <h1 class="py-3" style="color:#4aaaa5; border-bottom: solid 2px; border-color: #ddd;">Portfolio</h1>
+                    <h1 class="py-3" style="color:#4aaaa5; border-bottom: solid 2px; border-color: #ddd;">Projects</h1>
                 </div>
 
             </div>
@@ -47,110 +55,119 @@
                     <!-- row 1 -->
                     <div class="row">
                         <div class="col-md-4">
-                            <div class="card bg-dark text-white mt-3 shadow">
+                            <div class="card bg-dark text-white my-5 shadow">
                                 <a href="https://hunterdavis730.github.io/Word-Guess-Game/">
-                                    <img src="Assets/Images/lord-of-the-rings-tv-series_1.jpg" style="width: 100%" alt=""
-                                        class="card-image">
+                                    <img src="Assets/Images/lord-of-the-rings-tv-series_1.jpg" style="width: 100%"
+                                        alt="" class="card-image">
                                 </a>
-                                <div class="card-body text-center py-2" style="background:#4aaaa5;">
-                                    <a href="https://hunterdavis730.github.io/Word-Guess-Game/" class="text-white"">
-                                        <h5>Lord of the Rings: Word Guess Game</h5>
-                                    </a>
+                                <div class="card-body" data-name="Word-Guess-Game">
+                                    <div class="d-flex justify-content-around">
+                                        <a href="https://hunterdavis730.github.io/Word-Guess-Game/"
+                                            class="text-white project-title" target="_blank">
+                                            <h5>Word Guess Game</h5>
+                                        </a>
+                                        <a href="" class="more-info" data-name="Word-Guess-Game">
+                                            <i class="fas fa-ellipsis-v mt-1 text-white" style="font-size: 1rem;"></i>
+                                        </a> </div>
+                                    <div class="project-info my-3 d-none" data-name="Word-Guess-Game">
+                                        <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit.
+                                            Officia maxime nemo
+                                            impedit dolorem dolore voluptas. Tenetur hic sint sunt veniam.</p>
+                                        <a type="button" class="btn btn-light infor" target="_blank"
+                                            href="https://hunterdavis730.github.io/Word-Guess-Game/">Visit Site</a>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
-                        <div class="
-                                        col-md-4">
-                                        <div class="card bg-dark text-white mt-3 shadow">
-                                            <img src="Assets/Images/star-wars-rpg.jpeg" style="width: 100%;" alt=""
-                                                class="card-image">
-                                            <div class="card-body text-center" style="background:#4aaaa5;">
-                                                <a href="https://hunterdavis730.github.io/Star-Wars-RPG/" class="text-white">
-                                                    <h5>Star Wars RPG</h5>
-                                                </a>
-                                            </div>
-                                        </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="card bg-dark text-white mt-3 shadow">
-                                        <img src="Assets/Images/jazz.png" alt="" class="card-image">
-                                        <div class="card-body text-center" style="background:#4aaaa5;">
-                                            <a href="https://hunterdavis730.github.io/Trivia-Game/" class="text-white">
-                                                <h5>Trivia Game</h5>
-                                            </a>
-                                        </div>
+                        <div class=" col-md-4">
+                            <div class="card bg-dark text-white my-5 shadow">
+                                <img src="Assets/Images/star-wars-rpg.jpeg" style="width: 100%;" alt=""
+                                    class="card-image">
+                                <div class="card-body" data-name="Star-Wars">
+                                    <div class="d-flex justify-content-around">
+                                        <a href="https://hunterdavis730.github.io/Star-Wars-RPG/"
+                                            class="text-white project-title" target="_blank">
+                                            <h5>Star Wars RPG</h5>
+                                        </a>
+                                        <a href="" class="more-info" data-name="Star-Wars">
+                                            <i class=" fas fa-ellipsis-v mt-1 text-white" style="font-size: 1rem;"></i>
+                                        </a>
+                                    </div>
+                                    <div class="project-info my-3 d-none" data-name="Star-Wars">
+                                        <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Officia maxime nemo
+                                            impedit dolorem dolore voluptas. Tenetur hic sint sunt veniam.</p>
+                                        <a type="button" class="btn btn-light infor" target="_blank"
+                                            href="https://hunterdavis730.github.io/Star-Wars-RPG/">Visit Site</a>
                                     </div>
                                 </div>
                             </div>
-                            <!-- row 2 -->
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <div class="card bg-dark text-white mt-3 shadow">
-                                        <img src="Assets/Images/14282786728_20bcf8e01e_m.jpg" alt="" class="card-image">
-                                        <div class="card-body text-center" style="background:#4aaaa5;">
-                                            <h5>Something Cool</h5>
-                                        </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card bg-dark text-white my-5 shadow">
+                                <img src="Assets/Images/architecture-background-buildings-218983.jpg" alt=""
+                                    class="card-image">
+                                <div class="card-body" data-name="project-one">
+                                    <div class="d-flex justify-content-around">
+                                        <a href="https://tubidge.github.io/Project-One/home.html"
+                                            class="text-white project-title" target="_blank">
+                                            <h5>Travel Guide</h5>
+                                        </a>
+                                        <a href="" class="more-info" data-name="project-one">
+                                            <i class="fas fa-ellipsis-v mt-1 text-white" style="font-size: 1rem;"></i>
+                                        </a> </div>
+                                    <div class="project-info my-3 d-none" data-name="project-one">
+                                        <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit.
+                                            Officia maxime nemo
+                                            impedit dolorem dolore voluptas. Tenetur hic sint sunt veniam.</p>
+                                        <a type="button" class="btn btn-light infor" target="_blank"
+                                            href="https://tubidge.github.io/Project-One/home.html">Visit Site</a>
                                     </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="card bg-dark text-white mt-3 shadow">
-                                        <img src="Assets/Images/gifImage.png" alt="" class="card-image">
-                                        <div class="card-body text-center" style="background:#4aaaa5;">
-                                            <a href="https://hunterdavis730.github.io/GifTastic/" class="text-white">
-                                                <h5>Giftastic</h5>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="card bg-dark text-white mt-3 shadow">
-                                        <img src="Assets/Images/14469354705_eda8e516a4_m.jpg" alt="" class="card-image">
-                                        <div class="card-body text-center" style="background:#4aaaa5;">
-                                            <h5>Something Cool</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
 
-                            <!-- row 3 -->
-                            <div class="row pb-4">
-                                <div class="col-md-4">
-                                    <div class="card bg-dark text-white mt-3 shadow">
-                                        <img src="Assets/Images/15704710718_3941098ed4_m.jpg" alt="" class="card-image">
-                                        <div class="card-body text-center" style="background:#4aaaa5;">
-                                            <h5>Something Cool</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="card bg-dark text-white mt-3 shadow">
-                                        <img src="Assets/Images/21396745299_971b03f05e_m.jpg" alt="" class="card-image">
-                                        <div class="card-body text-center" style="background:#4aaaa5;">
-                                            <h5>Something Cool</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="card bg-dark text-white mt-3 shadow">
-                                        <img src="Assets/Images/7819800312_8a80ba0124_m.jpg" alt="" class="card-image">
-                                        <div class="card-body text-center" style="background:#4aaaa5;">
-                                            <h5>Something Cool</h5>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
-                            <!-- End of rows -->
                         </div>
                     </div>
+                    <!-- row 2 -->
+
+                    <!-- row 3 -->
+
+                    <!-- End of rows -->
                 </div>
             </div>
-            <!-- Start of footer  -->
-            <footer class="footer font-sm bg-dark m-0 mw-100 fixed-bottom" style="border-top: 8px solid #4aaaaf">
-                <div class="footer-copyright text-center py-3 text-white">Copyright©</div>
+        </div>
+    </div>
+    <!-- Start of footer  -->
+    <footer class="footer font-sm bg-dark m-0 mw-100 fixed-bottom" style="border-top: 8px solid #4aaaaf">
+        <div class="footer-copyright text-center py-3 text-white">
+            <a href="https://www.linkedin.com/in/hunter-davis-ba2008178/" target="_blank">
+                <i class="fab fa-linkedin text-white mr-1" style="font-size: 1.5rem"></i>
+            </a>
+            <a href="https://github.com/hunterdavis730" target="_blank">
+                <i class="fab fa-github-square text-white" style="font-size: 1.5rem"></i>
+            </a>
+        </div>
 
 
-            </footer>
-            <!-- End of footer -->
+    </footer>
+    <!-- End of footer -->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+    <script src="Assets/app.js"></script>
 </body>
 
 </html>

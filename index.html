@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="Assets/style.css">
 
     <title>Document</title>
@@ -14,18 +16,23 @@
 
 <body>
 
+
     <!-- start of navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom" style="border-color: #ccc;">
-        <a href="index.html" class="navbar-brand p-3 my-n2 text-white" style="background-color: #4aaaa5; margin-left: 15%;">Hunter
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark border-bottom" style="border-color: #ccc;">
+        <a href="index.html" class="navbar-brand p-3 my-n2 text-white"
+            style="background-color: #4aaaa5; margin-left: 15%;">Hunter
             Davis</a>
 
 
         <div class="collapse navbar-collapse justify-content-end" style="margin-right: 15%;">
             <div class="navbar-nav" style="color:#4aaaa5;">
-                <a href="index.html" class="nav-item nav-link active border-right" style="border-color: #ccc;">About
+                <a href="index.html" class="nav-item nav-link active text-white border-right mr-3 pr-4"
+                    style="border-color: #ccc; font-size: 2rem;" title="About Me"> <i class="fas fa-user"></i>
                     <span class="sr-only">(current)</span></a>
-                <a href="portfolio.html" class="nav-item nav-link border-right" style="border-color: #ccc;">Portfolio</a>
-                <a href="contact.html" class="nav-item nav-link">Contact</a>
+                <a href="portfolio.html" class="nav-item nav-link text-white border-right mr-3 pr-4"
+                    style="border-color: #ccc; font-size: 2rem;" title="Projects"><i class="fas fa-code"></i></a>
+                <a href="contact.html" class="nav-item nav-link text-white" style="font-size: 2rem;"
+                    title="Contact Me"><i class="fas fa-envelope"></i></a>
             </div>
 
         </div>
@@ -42,10 +49,10 @@
 
             </div>
             <div class="row bg-white pt-4 border-bottom border-left border-right">
-                <div class="col-md-3">
-                    <img src="https://via.placeholder.com/200" alt="">
+                <div class="col-md-5">
+                    <img src="Assets/Images/DSC02717.jpeg" style="height: 250px;" alt="">
                 </div>
-                <div class="col-md-9">
+                <div class="col-md-7">
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias itaque vero voluptate
                         recusandae
                         quisquam repellat nulla sapiente at debitis, dolor voluptas perspiciatis nostrum? Aperiam
@@ -98,11 +105,34 @@
     </div>
     <!-- Start of footer  -->
     <footer class="footer font-sm bg-dark m-0 mw-100 fixed-bottom" style="border-top: 8px solid #4aaaaf">
-        <div class="footer-copyright text-center py-3 text-white">Copyright©</div>
+        <div class="footer-copyright text-center py-3 text-white">
+            <a href="https://www.linkedin.com/in/hunter-davis-ba2008178/" target="_blank">
+                <i class="fab fa-linkedin text-white mr-1" style="font-size: 1.5rem"></i>
+            </a>
+            <a href="https://github.com/hunterdavis730" target="_blank">
+                <i class="fab fa-github-square text-white" style="font-size: 1.5rem"></i>
+            </a>
+        </div>
 
 
     </footer>
     <!-- End of footer -->
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+    <script src="Assets/app.js"></script>
 </body>
 
 </html>
